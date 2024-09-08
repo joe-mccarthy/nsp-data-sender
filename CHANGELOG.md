@@ -7,4 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/joe-mccarthy/nsp-data-sender/compare/main...HEAD
+## [0.0.1]
+
+### Added
+
+- Initial files for Repository
+  
+[unreleased]: https://github.com/joe-mccarthy/nsp-data-sender/compare/0.0.1...HEAD
+[0.0.1]: https://github.com/joe-mccarthy/night-sky-pi/releases/tag/0.0.1
