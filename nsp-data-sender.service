@@ -1,0 +1,13 @@
+[Unit]
+Description=NSP Data Sender
+After=network.target
+
+[Service]
+Type=Simple
+User=username
+WorkingDirectory=/home/username/repositories/nsp-data-sender
+ExecStart=/home/username/repositories/nsp-data-sender/nsp-data-sender.sh /home/username/nsp-data-sender-config.json /home/username/nsp.json
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
