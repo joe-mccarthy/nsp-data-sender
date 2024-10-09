@@ -1,0 +1,46 @@
+{
+    "destinations": [
+        {
+            "id": "1",
+            "type": "s3",
+            "bucket": "my-bucket",
+            "region": "eu-west-2",
+            "bucket_path": "my-path",
+            "aws_access_key_id": "my-access",
+            "aws_secret_access_key" : "my-secret"
+        },
+        {
+            "id": "2",
+            "type": "local",
+            "destination_path": "/tmp"
+        },
+        {
+            "id": "3",
+            "type": "ftp",
+            "host": "ftp.example.com",
+            "port": 21,
+            "username": "my-username",
+            "password": "my-password"
+        },
+        {
+            "id": "4",
+            "type": "sftp",
+            "host": "sftp.example.com",
+            "port": 22,
+            "username": "my-username",
+            "password": "my-password"
+        },
+        {
+            "id": "4",
+            "type": "ftps",
+            "host": "ftps.example.com",
+            "port": 22,
+            "username": "my-username",
+            "password": "my-password"
+        }
+    ],
+    "logging": {
+        "file": "nsp-data-sender.log",
+        "level": "DEBUG"
+    }
+}
