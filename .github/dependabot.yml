@@ -4,6 +4,9 @@ updates:
   directory: "/"
   schedule:
     interval: "monthly"
+  ignore:
+  - dependency-name: "coverage"
+  - dependency-name: "black"
   groups:
     python-packages:
       patterns:
